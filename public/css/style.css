@@ -1,0 +1,47 @@
+.active
+{
+    background-color: #156a9b;
+    font-size: 1.3em;
+}
+
+.dimension
+{
+    width: 100%; 
+    height:100%;
+}
+
+.resize
+{
+    resize: none;
+}
+
+.fond
+{
+    background-color: #156a9b;
+}
+
+.size-text
+{
+    font-size: 0.9em;
+}
+
+.size-day
+{
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+.size-month
+{
+    font-size: 1.3em;
+}
+
+.bg-date
+{
+    background-color: #00111b;
+}
+
+.icon-agenda
+{
+    font-size:0.8em;
+}
