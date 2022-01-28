@@ -101,7 +101,7 @@
                     <input type="text" value="xxxxxxxx" class="form-control" name="sourceUpdate" id="sourceUpdate" placeholder="Source de l'évenement">
                 </div>
                 <div class="mb-3">
-                    <input type="date" value="xxxxxxxx" class="form-control" name="dateUpdate" id="dateUpdate" placeholder="Date de l'évenement">
+                    <input type="date" value="" class="form-control" name="dateUpdate" id="dateUpdate" placeholder="Date de l'évenement">
                 </div>
                 <div class="mb-3">
                     <textarea class="form-control resize" name="descriptionUpdate" id="descriptionUpdate" placeholder="Rediger la description" rows="3"></textarea>
