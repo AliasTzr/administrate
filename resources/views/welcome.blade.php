@@ -51,5 +51,5 @@
         </div>
     </div>
 </div>
-
+<script src="{{url('js/back.js')}}"></script>
 @include('footer')

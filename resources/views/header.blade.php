@@ -44,7 +44,7 @@
               </div>
               <div class="pt-5 mt-5">
                 <div class="pt-4 text-center">
-                  <a href="" class="btn fond text-light fw-bold">DECONNECTION</a>
+                  <a href="{{route('connexion.index')}}" class="btn fond text-light fw-bold">DECONNECTION</a>
                 </div>
               </div>
             </div>
