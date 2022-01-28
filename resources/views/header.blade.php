@@ -26,7 +26,7 @@
             </div>
             <div class="offcanvas-body pe-1 ps-0">
               <div class="items mt-3">
-                <div class="border border-1 mb-1 @if(Route::getCurrentRoute()->uri()=='home')active @endif" data-bs-dismiss="offcanvas" aria-label="Close">
+                <div class="border border-1 mb-1 @if(Route::getCurrentRoute()->uri()=="home" OR Route::getCurrentRoute()->uri()=="/")active @endif" data-bs-dismiss="offcanvas" aria-label="Close">
                   <a href="{{route('home')}}" class="btn p-3 rounded-0 dimension item">Acceuil</a>
                 </div>
                 <div class="border border-1 mb-1 @if(Route::getCurrentRoute()->uri()=='actu')active @endif"  data-bs-dismiss="offcanvas" aria-label="Close">
@@ -40,7 +40,12 @@
                 </div>
                 <div class="border border-1 mb-1 @if(Route::getCurrentRoute()->uri()=='forum')active @endif" data-bs-dismiss="offcanvas" aria-label="Close">
                   <a href="{{route('forum')}}" class="btn p-3 rounded-0 dimension item">Forum</a>
+                </div>
               </div>
+              <div class="pt-5 mt-5">
+                <div class="pt-4 text-center">
+                  <a href="" class="btn fond text-light fw-bold">DECONNECTION</a>
+                </div>
               </div>
             </div>
           </div>

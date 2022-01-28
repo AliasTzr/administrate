@@ -14,9 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [Navigation::class, 'connexion'])->name('connexion.index');
+Route::post('/', [Navigation::class, 'submitForm'])->name('connexion.submit');  
 
 Route::get('/home',  [Navigation::class, 'home'])->name('home');
 
